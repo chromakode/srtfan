@@ -2,6 +2,8 @@
 
 `srtfan` takes a single "src" SRT stream input and fans it out to multiple "sink" outputs. The source and sinks may be disconnected and connected dynamically.
 
+All SRT endpoints in `srtfan` are in "listener" mode and need to be connected to in "caller" mode.
+
 ```
 Usage of srtfan:
   -sink-address string
